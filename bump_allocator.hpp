@@ -16,6 +16,18 @@ class BumpAllocator {
         delete[] pool;
     }
 
+    BumpAllocator(const BumpAllocator<T>& other)
+    : pool(new T[other.cap]), curr(pool), cap(other.cap){
+        // need to copy each element from the beginning to curr
+
+        T* ptr = other.pool; // pointer copy
+        while (ptr < other.curr){
+            *curr = *ptr;
+            curr += 1; // move by the size of T
+            ptr += 1;
+        }
+    }
+
     T* allocate(){
         if (curr - pool + 1 <= cap) {
             T* ptr = curr;
