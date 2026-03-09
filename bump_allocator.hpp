@@ -16,6 +16,7 @@ class BumpAllocator {
         delete[] pool;
     }
 
+    // copy constructor
     BumpAllocator(const BumpAllocator<T>& other)
     : pool(new T[other.cap]), curr(pool), cap(other.cap){
         // need to copy each element from the beginning to curr
@@ -26,6 +27,24 @@ class BumpAllocator {
             curr += 1; // move by the size of T
             ptr += 1;
         }
+    }
+
+    // copy assignment
+    BumpAllocator& operator=(const BumpAllocator<T>& other){
+        if (this == &other) return *this; // in the self-assignment case
+
+        delete[] pool;
+        pool = new T[other.cap];
+        curr = pool;
+        cap = other.cap;
+
+        T* ptr = other.pool; // pointer copy
+        while (ptr < other.curr){
+            *curr = *ptr;
+            curr += 1; // move by the size of T
+            ptr += 1;
+        }
+        return *this;
     }
 
     T* allocate(){
