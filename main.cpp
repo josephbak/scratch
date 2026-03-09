@@ -6,12 +6,19 @@ int main(int argc, char* argv[]){
     // auto ptr = ball->allocate(sizeof(int));
 
     BumpAllocator allocator(1024);
-    allocator.allocate(sizeof(int));  // dot, not arrow
-    auto ptr = allocator.allocate(sizeof(int));
 
+    for (int i = 0; i < 300; ++i) {
+        allocator.allocate(sizeof(int)); 
+    }
 
+    auto ptr = allocator.allocate(sizeof(int)); // dot, not arrow
     int* iptr = reinterpret_cast<int*>(ptr);
-    *iptr = 42;
 
+    if (iptr) {
+    *iptr = 42;
     std::cout << *iptr << std::endl;
+    } else {
+        std::cout << "allocation failed" << std::endl;
+    }
+
 }
