@@ -47,6 +47,13 @@ class BumpAllocator {
         return *this;
     }
 
+    // move constructor
+    BumpAllocator(BumpAllocator<T>&& other)
+    : pool(other.pool), curr(other.curr), cap(other.cap){
+        other.pool = nullptr;
+        other.curr = nullptr;
+    }
+
     T* allocate(){
         if (curr - pool + 1 <= cap) {
             T* ptr = curr;
@@ -59,4 +66,6 @@ class BumpAllocator {
     void reset(){
         curr = pool;
     }
+
+    bool empty() const { return pool == nullptr; }
 };
