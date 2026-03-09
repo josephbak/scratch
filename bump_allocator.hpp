@@ -13,14 +13,14 @@ class BumpAllocator {
     std::size_t cap;   // total capacity
 
 
+    public:
+
     BumpAllocator(std::size_t cap)
     : pool(new std::byte[cap]), curr(pool), cap(cap) {} // member initializer list
 
     ~BumpAllocator(){
         delete[] pool;
     }
-
-    public:
 
     std::byte* allocate(std::size_t size){
         if (curr - pool + size <= cap) {
