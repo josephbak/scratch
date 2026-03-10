@@ -31,7 +31,7 @@ class BumpAllocator {
 
     // copy assignment
     BumpAllocator& operator=(const BumpAllocator<T>& other){
-        if (this == &other) return *this; // in the self-assignment case
+        if (this == &other) return *this; // self-assignment case
 
         delete[] pool;
         pool = new T[other.cap];
@@ -53,6 +53,21 @@ class BumpAllocator {
         other.pool = nullptr;
         other.curr = nullptr;
     }
+
+    // move assignment
+    BumpAllocator& operator=(BumpAllocator<T>&& other){
+        if (this == &other) return *this; // self-assignment case
+
+        pool = other.pool;
+        curr = other.curr;
+        cap = other.cap;
+
+        other.pool = nullptr;
+        other.curr = nullptr;
+
+        return *this;
+    }
+
 
     T* allocate(){
         if (curr - pool + 1 <= cap) {
