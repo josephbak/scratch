@@ -58,6 +58,7 @@ class BumpAllocator {
     BumpAllocator& operator=(BumpAllocator<T>&& other){
         if (this == &other) return *this; // self-assignment case
 
+        delete[] pool;
         pool = other.pool;
         curr = other.curr;
         cap = other.cap;
