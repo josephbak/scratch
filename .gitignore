@@ -1,1 +1,13 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Compiled artifacts
 *.vmfb
+*.bc
+*.o
+*.s
+
+# LLVM IR intermediates
+*_intermediates/
