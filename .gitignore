@@ -11,3 +11,5 @@
 
 # LLVM IR intermediates
 *_intermediates/
+kcalc/build/
+bench/
