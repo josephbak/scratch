@@ -12,6 +12,7 @@ add_link_options(-fsanitize=address,undefined)
 add_executable(kcalc
     src/main.cpp
     src/lexer.cpp
+    src/parser.cpp
 )
 
 target_include_directories(kcalc PRIVATE

@@ -1,9 +1,11 @@
 #include "lexer.hpp"
 #include <cctype> // for std::isdigit, std::isspace
 
-std::vector<Token> tokenize(std::string_view input) {
+Lexer::Lexer(std::string_view input) : input(input), pos(0) {}
+
+std::vector<Token> Lexer::tokenize() {
     std::vector<Token> tokens;
-    size_t pos = 0;
+    // size_t pos = 0;
 
     while (pos < input.length()) {
         char current = input[pos];
