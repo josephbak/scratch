@@ -1,3 +1,7 @@
+cpp/
+cpp_master_systems_reference.md
+fetch_master_reference.py
+
 # macOS
 .DS_Store
 .AppleDouble
