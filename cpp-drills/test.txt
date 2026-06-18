@@ -1,0 +1,4 @@
+the quick brown fox jumps over the lazy dog
+a tensor is a multidimensional array of values
+MLIR lowers high level dialects down to hardware specific code
+compilers turn source code into machine instructions
