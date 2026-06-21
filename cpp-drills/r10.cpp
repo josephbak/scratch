@@ -83,6 +83,7 @@ public:
             // need to free
             delete[] data_;
         }
+        size_ = o.size_;
         if (o.data_ == o.inline_) {
             capacity_ = N;
             data_ = inline_;
@@ -130,17 +131,23 @@ public:
 };
 
 int main() {
-    SmallVector<int, 4> v;
-    v.push_back(1); v.push_back(2); v.push_back(3);
-    std::cout << "size " << v.size() << " cap " << v.capacity() << '\n';  // size 3 cap 4 (inline)
+    SmallVector<int,4> a;
+    for (int i = 0; i < 6; ++i) a.push_back(i);   // a spills to heap (size 6, cap 8)
 
-    v.push_back(4);   // fills inline (size 4 == cap 4)
-    v.push_back(5);   // SPILL → grows to heap, cap becomes 8
-    std::cout << "size " << v.size() << " cap " << v.capacity() << '\n';  // size 5 cap 8 (heap)
+    SmallVector<int,4> b = a;              // copy ctor — b independent deep copy
+    b[0] = 99;
+    std::cout << a[0] << " " << b[0] << '\n';      // 0 99 — proves deep copy
 
-    for (std::size_t i = 0; i < v.size(); ++i) std::cout << v[i] << " ";  // 1 2 3 4 5
-    std::cout << '\n';
+    SmallVector<int,4> c;
+    c = a;                                 // copy assign
+    std::cout << c[0] << " " << c.size() << '\n';  // 0 6
 
-    v.push_back(6); v.push_back(7); v.push_back(8); v.push_back(9);  // fills to 8, then spills to 16
-    std::cout << "size " << v.size() << " cap " << v.capacity() << '\n';  // size 9 cap 16
-}                                                                          // dtor frees heap (data_ != inline_)
+    SmallVector<int,4> d = std::move(a);   // move ctor (large mode → steal)
+    std::cout << d.size() << '\n';         // 6 (a now gutted but valid)
+
+    SmallVector<int,4> e;
+    e = std::move(d);                      // move assign (large mode → steal)
+    std::cout << e.size() << '\n';         // 6
+
+    return 0;
+}
