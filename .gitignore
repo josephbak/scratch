@@ -1,6 +1,7 @@
 cpp/
 cpp_master_systems_reference.md
 fetch_master_reference.py
+cpp-drills/r10.dSYM/
 
 # macOS
 .DS_Store
