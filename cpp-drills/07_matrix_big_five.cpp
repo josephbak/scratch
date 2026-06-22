@@ -84,7 +84,7 @@ public:
         return cols_;        
     }
     std::size_t get_rows() const{
-        return cols_;        
+        return rows_;        
     }
 };
 
