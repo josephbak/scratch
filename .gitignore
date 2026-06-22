@@ -3,9 +3,12 @@ cpp_master_systems_reference.md
 fetch_master_reference.py
 cpp-drills/r[0-9]*
 !cpp-drills/r[0-9]*.cpp
-cpp-drills/*.o
+
+cpp-drills/build/
 cpp-drills/*.dSYM/
+cpp-drills/*.o
 cpp-drills/a.out
+
 
 # macOS
 .DS_Store
