@@ -75,8 +75,8 @@ public:
         return data_[i * cols_ + j]; 
     }
 
-    double  operator()(std::size_t i, std::size_t j) const {   // returns by value (read-only)
-        assert(i < rows_ && j < cols_);
+    double operator()(std::size_t i, std::size_t j) const {   // returns by value (read-only)
+        assert(i < rows_ && j < cols_ && "index out of bounds");
         return data_[i * cols_ + j];
     }
 
