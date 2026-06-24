@@ -8,7 +8,7 @@ cpp-drills/build/
 cpp-drills/*.dSYM/
 cpp-drills/*.o
 cpp-drills/a.out
-
+cpp-drills/NOTES.md
 
 # macOS
 .DS_Store
@@ -25,4 +25,3 @@ cpp-drills/a.out
 *_intermediates/
 kcalc/build/
 bench/
-cpp-drills/NOTES.md
