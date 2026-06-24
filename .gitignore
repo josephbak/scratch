@@ -8,7 +8,7 @@ cpp-drills/build/
 cpp-drills/*.dSYM/
 cpp-drills/*.o
 cpp-drills/a.out
-cpp-drills/NOTES.md
+cpp-drills/notes
 
 # macOS
 .DS_Store
