@@ -1,13 +1,21 @@
 #include <iostream>
 #include <type_traits>
 
+/*
+FORWARDING REF:  template<typename T> f(T&& x)   where T is deduced
+DEDUCTION:       lvalue arg → T = U&   → param U&   (collapse U& && )
+                 rvalue arg → T = U    → param U&&
+COLLAPSE:        & & → & | & && → & | && & → & | && && → &&   ("& infects")
+KEY FACT:        std::move(n) deduces same as literal → both rvalue → T = U
+TRAP (→ Rung 29): x's TYPE ≠ x's CATEGORY; named x is ALWAYS lvalue expression
+*/
+
 template <typename T>
 void probe(T&& x) {
     std::cout << "T is lvalue ref? " << std::is_lvalue_reference_v<T> << '\n';
     std::cout << "T is rvalue ref? " << std::is_rvalue_reference_v<T> << '\n';
-    std::cout << "x itself is lvalue? " << /* is `x` used-by-name an lvalue? */ '\n';
+    // std::cout << "x itself is lvalue? " << /* is `x` used-by-name an lvalue? */ '\n';
 } 
-
 
 int main() {
 
