@@ -1,0 +1,13 @@
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/intrinsics_gen.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/vt_gen.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/omp_gen.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/acc_gen.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/target_parser_gen.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/mlir-tablegen-targets.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/mlir-headers.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/mlir-generic-headers.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/mlir-doc.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/ToyIncGen.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/toy-opt.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/edit_cache.dir
+/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/rebuild_cache.dir

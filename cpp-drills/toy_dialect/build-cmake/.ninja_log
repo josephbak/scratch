@@ -1,0 +1,26 @@
+# ninja log v7
+2	23	1783486259112229679	toy_dialect.h.inc	f668cff2a55b3796
+2	23	1783486259112229679	/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/toy_dialect.h.inc	f668cff2a55b3796
+3	23	1783486259113137550	toy_ops.cpp.inc	776fa864a6b9f318
+3	23	1783486259113137550	/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/toy_ops.cpp.inc	776fa864a6b9f318
+2	23	1783486259112535178	toy_dialect.cpp.inc	863d1da7f4f85fd3
+2	23	1783486259112535178	/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/toy_dialect.cpp.inc	863d1da7f4f85fd3
+3	23	1783486259113173966	toy_ops.h.inc	ab40d5aa84f11795
+3	23	1783486259113173966	/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/toy_ops.h.inc	ab40d5aa84f11795
+23	874	1783486259120158348	CMakeFiles/toy-opt.dir/toy_opt.cpp.o	46c1ecd2d44d986f
+7	801	1783486946877428159	CMakeFiles/toy-opt.dir/ToyPatterns.cpp.o	acb44891f6a4be1b
+6	635	1783488438715096010	CMakeFiles/toy-opt.dir/ToyDialect.cpp.o	85a03a2f6a9990e5
+5	595	1783488522497728456	CMakeFiles/toy-opt.dir/ToyDialect.cpp.o	85a03a2f6a9990e5
+5	26	1783488546825731752	toy_dialect.cpp.inc	863d1da7f4f85fd3
+5	26	1783488546825731752	/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/toy_dialect.cpp.inc	863d1da7f4f85fd3
+6	26	1783488546825861501	toy_dialect.h.inc	f668cff2a55b3796
+6	26	1783488546825861501	/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/toy_dialect.h.inc	f668cff2a55b3796
+6	26	1783488546826895788	toy_ops.cpp.inc	776fa864a6b9f318
+6	26	1783488546826895788	/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/toy_ops.cpp.inc	776fa864a6b9f318
+6	26	1783488546826013042	toy_ops.h.inc	ab40d5aa84f11795
+6	26	1783488546826013042	/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/toy_ops.h.inc	ab40d5aa84f11795
+26	722	1783488546833873336	CMakeFiles/toy-opt.dir/ToyDialect.cpp.o	85a03a2f6a9990e5
+26	868	1783488546833770587	CMakeFiles/toy-opt.dir/ToyPatterns.cpp.o	acb44891f6a4be1b
+26	894	1783488546833600754	CMakeFiles/toy-opt.dir/toy_opt.cpp.o	46c1ecd2d44d986f
+5	636	1783488730567524100	CMakeFiles/toy-opt.dir/ToyDialect.cpp.o	85a03a2f6a9990e5
+637	689	1783488731199225586	toy-opt	cabdf7b841a8a1a

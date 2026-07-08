@@ -1,0 +1,2426 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/Users/josephbak/.opam/default/bin/uname"
+      - "/Users/josephbak/iree/build/tools/uname"
+      - "/Users/josephbak/iree-build/tools/uname"
+      - "/Users/josephbak/.local/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/Users/josephbak/.pixi/bin/uname"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/uname"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/opt/local/bin/uname"
+      - "/opt/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 24.5.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/Users/josephbak/.opam/default/bin/ninja-build"
+      - "/Users/josephbak/.opam/default/bin/ninja"
+      - "/Users/josephbak/.opam/default/bin/samu"
+      - "/Users/josephbak/iree/build/tools/ninja-build"
+      - "/Users/josephbak/iree/build/tools/ninja"
+      - "/Users/josephbak/iree/build/tools/samu"
+      - "/Users/josephbak/iree-build/tools/ninja-build"
+      - "/Users/josephbak/iree-build/tools/ninja"
+      - "/Users/josephbak/iree-build/tools/samu"
+      - "/Users/josephbak/.local/bin/ninja-build"
+      - "/Users/josephbak/.local/bin/ninja"
+      - "/Users/josephbak/.local/bin/samu"
+      - "/opt/homebrew/bin/ninja-build"
+    found: "/opt/homebrew/bin/ninja"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/Users/josephbak/.opam/default/bin/c++"
+      - "/Users/josephbak/iree/build/tools/c++"
+      - "/Users/josephbak/iree-build/tools/c++"
+      - "/Users/josephbak/.local/bin/c++"
+      - "/opt/homebrew/bin/c++"
+      - "/Users/josephbak/.pixi/bin/c++"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/c++"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/c++"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/c++"
+      - "/opt/local/bin/c++"
+      - "/opt/local/sbin/c++"
+      - "/usr/local/bin/c++"
+      - "/System/Cryptexes/App/usr/bin/c++"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/4.1.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 513 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/Users/josephbak/.opam/default/bin/objcopy"
+      - "/Users/josephbak/iree/build/tools/objcopy"
+      - "/Users/josephbak/iree-build/tools/objcopy"
+      - "/Users/josephbak/.local/bin/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/Users/josephbak/.pixi/bin/objcopy"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/objcopy"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
+      - "/opt/local/bin/objcopy"
+      - "/opt/local/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/Users/josephbak/.opam/default/bin/readelf"
+      - "/Users/josephbak/iree/build/tools/readelf"
+      - "/Users/josephbak/iree-build/tools/readelf"
+      - "/Users/josephbak/.local/bin/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/Users/josephbak/.pixi/bin/readelf"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/readelf"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
+      - "/opt/local/bin/readelf"
+      - "/opt/local/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/Users/josephbak/.opam/default/bin/dlltool"
+      - "/Users/josephbak/iree/build/tools/dlltool"
+      - "/Users/josephbak/iree-build/tools/dlltool"
+      - "/Users/josephbak/.local/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/Users/josephbak/.pixi/bin/dlltool"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/dlltool"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/opt/local/bin/dlltool"
+      - "/opt/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/Users/josephbak/.opam/default/bin/addr2line"
+      - "/Users/josephbak/iree/build/tools/addr2line"
+      - "/Users/josephbak/iree-build/tools/addr2line"
+      - "/Users/josephbak/.local/bin/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/Users/josephbak/.pixi/bin/addr2line"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/addr2line"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
+      - "/opt/local/bin/addr2line"
+      - "/opt/local/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/Users/josephbak/.opam/default/bin/tapi"
+      - "/Users/josephbak/iree/build/tools/tapi"
+      - "/Users/josephbak/iree-build/tools/tapi"
+      - "/Users/josephbak/.local/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/Users/josephbak/.pixi/bin/tapi"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/tapi"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/opt/local/bin/tapi"
+      - "/opt/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/4.1.1/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:290 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+        # 1 "apple-sdk.c"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 465 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.c" 2
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.c" 2
+        
+        
+      Found apple sysroot: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:76 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Users/josephbak/.opam/default/bin/"
+      - "/Users/josephbak/iree/build/tools/"
+      - "/Users/josephbak/iree-build/tools/"
+      - "/Users/josephbak/.local/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Users/josephbak/.pixi/bin/"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+    searched_directories:
+      - "/Users/josephbak/.opam/default/bin/install_name_tool"
+      - "/Users/josephbak/iree/build/tools/install_name_tool"
+      - "/Users/josephbak/iree-build/tools/install_name_tool"
+      - "/Users/josephbak/.local/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/Users/josephbak/.pixi/bin/install_name_tool"
+      - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/install_name_tool"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
+      - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/install_name_tool"
+      - "/opt/local/bin/install_name_tool"
+      - "/opt/local/sbin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Users/josephbak/.opam/default/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/homebrew/bin"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/josephbak/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/Users/josephbak/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/josephbak/iree/build/tools"
+        - "/Users/josephbak/iree-build/tools"
+        - "/Users/josephbak/.local/bin"
+        - "/Users/josephbak/.pixi/bin"
+        - "/opt/local/bin"
+        - "/opt/local/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-DuSRIE"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-DuSRIE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-DuSRIE'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_4c0d7
+        [1/2] /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 17.0.0 (clang-1700.0.13.5)
+        Target: arm64-apple-darwin24.5.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-DuSRIE -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-DuSRIE -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.5.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        [2/2] : && /usr/bin/c++ -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4c0d7   && :
+        Apple clang version 17.0.0 (clang-1700.0.13.5)
+        Target: arm64-apple-darwin24.5.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4c0d7 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1167.5
+        BUILD 01:45:05 Apr 30 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-DuSRIE']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_4c0d7]
+        ignore line: [[1/2] /usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
+        ignore line: [Target: arm64-apple-darwin24.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-DuSRIE -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-DuSRIE -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.5.0]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /usr/bin/c++ -arch arm64 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4c0d7   && :]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
+        ignore line: [Target: arm64-apple-darwin24.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_4c0d7 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.5] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4c0d7] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_4c0d7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1167.5
+      BUILD 01:45:05 Apr 30 2025
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-jwudkw"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-jwudkw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-jwudkw'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_2d6de
+        [1/2] /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 17.0.0 (clang-1700.0.13.5)
+        Target: arm64-apple-darwin24.5.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-jwudkw -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-jwudkw -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.5.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks"
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        [2/2] : && /usr/bin/cc -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -o cmTC_2d6de   && :
+        Apple clang version 17.0.0 (clang-1700.0.13.5)
+        Target: arm64-apple-darwin24.5.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2d6de -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1167.5
+        BUILD 01:45:05 Apr 30 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+        Library search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-jwudkw']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_2d6de]
+        ignore line: [[1/2] /usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
+        ignore line: [Target: arm64-apple-darwin24.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-jwudkw -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-jwudkw -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin24.5.0]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks"]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /usr/bin/cc -arch arm64 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -o cmTC_2d6de   && :]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
+        ignore line: [Target: arm64-apple-darwin24.5.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.0.0 15.5 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2d6de -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [15.5] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2d6de] ==> ignore
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_2d6de.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/usr/local/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1167.5
+      BUILD 01:45:05 Apr 30 2025
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckLinkerFlag.cmake:34 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckLinkerFlag.cmake:153 (cmake_check_linker_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/AddLLVM.cmake:330 (check_linker_flag)"
+      - "CMakeLists.txt:18 (include)"
+    checks:
+      - "Performing Test LLVM_LINKER_SUPPORTS_NO_EXPORTED_SYMBOLS"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-XbC5sN"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-XbC5sN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "LLVM_LINKER_SUPPORTS_NO_EXPORTED_SYMBOLS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-XbC5sN'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ba919
+        [1/2] /usr/bin/cc -DLLVM_LINKER_SUPPORTS_NO_EXPORTED_SYMBOLS  -arch arm64 -MD -MT CMakeFiles/cmTC_ba919.dir/src.c.o -MF CMakeFiles/cmTC_ba919.dir/src.c.o.d -o CMakeFiles/cmTC_ba919.dir/src.c.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-XbC5sN/src.c
+        [2/2] : && /usr/bin/cc -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-no_exported_symbols CMakeFiles/cmTC_ba919.dir/src.c.o -o cmTC_ba919   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckLinkerFlag.cmake:34 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckLinkerFlag.cmake:153 (cmake_check_linker_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/AddLLVM.cmake:337 (check_linker_flag)"
+      - "CMakeLists.txt:18 (include)"
+    checks:
+      - "Performing Test LLVM_LINKER_SUPPORTS_NO_WARN_DUPLICATE_LIBRARIES"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-tDJuT9"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-tDJuT9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "LLVM_LINKER_SUPPORTS_NO_WARN_DUPLICATE_LIBRARIES"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-tDJuT9'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0ddee
+        [1/2] /usr/bin/cc -DLLVM_LINKER_SUPPORTS_NO_WARN_DUPLICATE_LIBRARIES  -arch arm64 -MD -MT CMakeFiles/cmTC_0ddee.dir/src.c.o -MF CMakeFiles/cmTC_0ddee.dir/src.c.o.d -o CMakeFiles/cmTC_0ddee.dir/src.c.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-tDJuT9/src.c
+        [2/2] : && /usr/bin/cc -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-no_warn_duplicate_libraries CMakeFiles/cmTC_0ddee.dir/src.c.o -o cmTC_0ddee   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:182 (CHECK_CXX_SOURCE_COMPILES)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test LLVM_USES_LIBSTDCXX"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vHPoHz"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vHPoHz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "LLVM_USES_LIBSTDCXX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vHPoHz'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_21eee
+        [1/2] /usr/bin/c++ -DLLVM_USES_LIBSTDCXX  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_21eee.dir/src.cxx.o -MF CMakeFiles/cmTC_21eee.dir/src.cxx.o.d -o CMakeFiles/cmTC_21eee.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vHPoHz/src.cxx
+        FAILED: [code=1] CMakeFiles/cmTC_21eee.dir/src.cxx.o 
+        /usr/bin/c++ -DLLVM_USES_LIBSTDCXX  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_21eee.dir/src.cxx.o -MF CMakeFiles/cmTC_21eee.dir/src.cxx.o.d -o CMakeFiles/cmTC_21eee.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vHPoHz/src.cxx
+        /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vHPoHz/src.cxx:4:2: error: Not libstdc++
+            4 | #error Not libstdc++
+              |  ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:190 (CHECK_CXX_SOURCE_COMPILES)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test LLVM_DEFAULT_TO_GLIBCXX_USE_CXX11_ABI"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-fOSH2d"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-fOSH2d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "LLVM_DEFAULT_TO_GLIBCXX_USE_CXX11_ABI"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-fOSH2d'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0ea87
+        [1/2] /usr/bin/c++ -DLLVM_DEFAULT_TO_GLIBCXX_USE_CXX11_ABI  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_0ea87.dir/src.cxx.o -MF CMakeFiles/cmTC_0ea87.dir/src.cxx.o.d -o CMakeFiles/cmTC_0ea87.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-fOSH2d/src.cxx
+        FAILED: [code=1] CMakeFiles/cmTC_0ea87.dir/src.cxx.o 
+        /usr/bin/c++ -DLLVM_DEFAULT_TO_GLIBCXX_USE_CXX11_ABI  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_0ea87.dir/src.cxx.o -MF CMakeFiles/cmTC_0ea87.dir/src.cxx.o.d -o CMakeFiles/cmTC_0ea87.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-fOSH2d/src.cxx
+        /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-fOSH2d/src.cxx:4:2: error: _GLIBCXX_USE_CXX11_ABI not active
+            4 | #error _GLIBCXX_USE_CXX11_ABI not active
+              |  ^
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:383 (check_c_compiler_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:457 (add_flag_or_print_warning)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test C_SUPPORTS_FPIC"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-0vt056"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-0vt056"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "C_SUPPORTS_FPIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-0vt056'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_89c32
+        [1/2] /usr/bin/cc -DC_SUPPORTS_FPIC  -arch arm64   -Werror -fPIC -MD -MT CMakeFiles/cmTC_89c32.dir/src.c.o -MF CMakeFiles/cmTC_89c32.dir/src.c.o.d -o CMakeFiles/cmTC_89c32.dir/src.c.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-0vt056/src.c
+        [2/2] : && /usr/bin/cc -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_89c32.dir/src.c.o -o cmTC_89c32   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:384 (check_cxx_compiler_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:457 (add_flag_or_print_warning)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test CXX_SUPPORTS_FPIC"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-FDjPZw"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-FDjPZw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CXX_SUPPORTS_FPIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-FDjPZw'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c4ee2
+        [1/2] /usr/bin/c++ -DCXX_SUPPORTS_FPIC  -std=gnu++17 -arch arm64   -Werror -fPIC -MD -MT CMakeFiles/cmTC_c4ee2.dir/src.cxx.o -MF CMakeFiles/cmTC_c4ee2.dir/src.cxx.o.d -o CMakeFiles/cmTC_c4ee2.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-FDjPZw/src.cxx
+        [2/2] : && /usr/bin/c++ -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c4ee2.dir/src.cxx.o -o cmTC_c4ee2   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:376 (check_c_compiler_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:471 (add_flag_if_supported)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-TDSFAB"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-TDSFAB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fPIC"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-TDSFAB'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_1b068
+        [1/2] /usr/bin/cc -DC_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC  -arch arm64   -Werror -fno-semantic-interposition -MD -MT CMakeFiles/cmTC_1b068.dir/src.c.o -MF CMakeFiles/cmTC_1b068.dir/src.c.o.d -o CMakeFiles/cmTC_1b068.dir/src.c.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-TDSFAB/src.c
+        FAILED: [code=1] CMakeFiles/cmTC_1b068.dir/src.c.o 
+        /usr/bin/cc -DC_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC  -arch arm64   -Werror -fno-semantic-interposition -MD -MT CMakeFiles/cmTC_1b068.dir/src.c.o -MF CMakeFiles/cmTC_1b068.dir/src.c.o.d -o CMakeFiles/cmTC_1b068.dir/src.c.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-TDSFAB/src.c
+        clang: error: argument unused during compilation: '-fno-semantic-interposition' [-Werror,-Wunused-command-line-argument]
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:378 (check_cxx_compiler_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:471 (add_flag_if_supported)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-w5w3c0"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-w5w3c0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fPIC"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-w5w3c0'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_16042
+        [1/2] /usr/bin/c++ -DCXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC  -std=gnu++17 -arch arm64   -Werror -fno-semantic-interposition -MD -MT CMakeFiles/cmTC_16042.dir/src.cxx.o -MF CMakeFiles/cmTC_16042.dir/src.cxx.o.d -o CMakeFiles/cmTC_16042.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-w5w3c0/src.cxx
+        FAILED: [code=1] CMakeFiles/cmTC_16042.dir/src.cxx.o 
+        /usr/bin/c++ -DCXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC  -std=gnu++17 -arch arm64   -Werror -fno-semantic-interposition -MD -MT CMakeFiles/cmTC_16042.dir/src.cxx.o -MF CMakeFiles/cmTC_16042.dir/src.cxx.o.d -o CMakeFiles/cmTC_16042.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-w5w3c0/src.cxx
+        clang++: error: argument unused during compilation: '-fno-semantic-interposition' [-Werror,-Wunused-command-line-argument]
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:496 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vZXmka"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vZXmka"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fPIC"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vZXmka'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a4493
+        [1/2] /usr/bin/c++ -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -fPIC  -std=gnu++17 -arch arm64   -fvisibility-inlines-hidden -MD -MT CMakeFiles/cmTC_a4493.dir/src.cxx.o -MF CMakeFiles/cmTC_a4493.dir/src.cxx.o.d -o CMakeFiles/cmTC_a4493.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-vZXmka/src.cxx
+        [2/2] : && /usr/bin/c++ -fPIC  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a4493.dir/src.cxx.o -o cmTC_a4493   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckLinkerFlag.cmake:34 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckLinkerFlag.cmake:153 (cmake_check_linker_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:1171 (check_linker_flag)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test LINKER_SUPPORTS_COLOR_DIAGNOSTICS"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-QJEp5X"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-QJEp5X"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "LINKER_SUPPORTS_COLOR_DIAGNOSTICS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-QJEp5X'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_44cfd
+        [1/2] /usr/bin/c++ -DLINKER_SUPPORTS_COLOR_DIAGNOSTICS  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_44cfd.dir/src.cxx.o -MF CMakeFiles/cmTC_44cfd.dir/src.cxx.o.d -o CMakeFiles/cmTC_44cfd.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-QJEp5X/src.cxx
+        [2/2] : && /usr/bin/c++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,--color-diagnostics CMakeFiles/cmTC_44cfd.dir/src.cxx.o -o cmTC_44cfd   && :
+        FAILED: [code=1] cmTC_44cfd 
+        : && /usr/bin/c++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,--color-diagnostics CMakeFiles/cmTC_44cfd.dir/src.cxx.o -o cmTC_44cfd   && :
+        ld: unknown options: --color-diagnostics 
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:193 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:98 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:1531 (check_symbol_exists)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Looking for os_signpost_interval_begin"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-OdX8JX"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-OdX8JX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fPIC  -w -fdiagnostics-color"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "macos_signposts_available"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-OdX8JX'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_549e1
+        [1/2] /usr/bin/cc   -fPIC  -w -fdiagnostics-color  -arch arm64 -MD -MT CMakeFiles/cmTC_549e1.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_549e1.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_549e1.dir/CheckSymbolExists.c.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-OdX8JX/CheckSymbolExists.c
+        [2/2] : && /usr/bin/cc -fPIC  -w -fdiagnostics-color  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_549e1.dir/CheckSymbolExists.c.o -o cmTC_549e1   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:1533 (check_cxx_source_compiles)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Performing Test macos_signposts_usable"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-aZPbqk"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-aZPbqk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -Xclang -fno-pch-timestamp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "macos_signposts_usable"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-aZPbqk'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_eab48
+        [1/2] /usr/bin/c++ -Dmacos_signposts_usable  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -Xclang -fno-pch-timestamp  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_eab48.dir/src.cxx.o -MF CMakeFiles/cmTC_eab48.dir/src.cxx.o.d -o CMakeFiles/cmTC_eab48.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-aZPbqk/src.cxx
+        [2/2] : && /usr/bin/c++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -Xclang -fno-pch-timestamp  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eab48.dir/src.cxx.o -o cmTC_eab48   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:193 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckSymbolExists.cmake:98 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/HandleLLVMOptions.cmake:1609 (check_symbol_exists)"
+      - "CMakeLists.txt:20 (include)"
+    checks:
+      - "Looking for flock"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-tdlKV5"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-tdlKV5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -fPIC  -w -fdiagnostics-color"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_FLOCK"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-tdlKV5'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_6c6d3
+        [1/2] /usr/bin/cc   -fPIC  -w -fdiagnostics-color  -arch arm64 -MD -MT CMakeFiles/cmTC_6c6d3.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_6c6d3.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6c6d3.dir/CheckSymbolExists.c.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-tdlKV5/CheckSymbolExists.c
+        [2/2] : && /usr/bin/cc -fPIC  -w -fdiagnostics-color  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6c6d3.dir/CheckSymbolExists.c.o -o cmTC_6c6d3   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckLinkerFlag.cmake:34 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/CheckLinkerFlag.cmake:153 (cmake_check_linker_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/AddLLVM.cmake:411 (check_linker_flag)"
+      - "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm/AddLLVM.cmake:1208 (add_link_opts)"
+      - "CMakeLists.txt:39 (add_llvm_executable)"
+    checks:
+      - "Performing Test LLVM_LINKER_SUPPORTS_B_SYMBOLIC_FUNCTIONS"
+    directories:
+      source: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-9OewJd"
+      binary: "/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-9OewJd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -Xclang -fno-pch-timestamp"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/josephbak/iree/build/llvm-project/lib/cmake/llvm;/Users/josephbak/iree/build/lib/cmake/mlir;/Users/josephbak/iree/third_party/llvm-project/llvm/cmake/modules"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "LLVM_LINKER_SUPPORTS_B_SYMBOLIC_FUNCTIONS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-9OewJd'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_bf7f1
+        [1/2] /usr/bin/c++ -DLLVM_LINKER_SUPPORTS_B_SYMBOLIC_FUNCTIONS  -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -Xclang -fno-pch-timestamp  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_bf7f1.dir/src.cxx.o -MF CMakeFiles/cmTC_bf7f1.dir/src.cxx.o.d -o CMakeFiles/cmTC_bf7f1.dir/src.cxx.o -c /Users/josephbak/scratch/cpp-drills/toy_dialect/build-cmake/CMakeFiles/CMakeScratch/TryCompile-9OewJd/src.cxx
+        [2/2] : && /usr/bin/c++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -Xclang -fno-pch-timestamp  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-Bsymbolic-functions CMakeFiles/cmTC_bf7f1.dir/src.cxx.o -o cmTC_bf7f1   && :
+        FAILED: [code=1] cmTC_bf7f1 
+        : && /usr/bin/c++ -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -w -fdiagnostics-color -Xclang -fno-pch-timestamp  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-Bsymbolic-functions CMakeFiles/cmTC_bf7f1.dir/src.cxx.o -o cmTC_bf7f1   && :
+        ld: unknown options: -Bsymbolic-functions 
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
