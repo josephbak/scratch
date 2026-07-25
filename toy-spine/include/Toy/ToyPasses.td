@@ -27,4 +27,12 @@ def ToySwitchBarFoo: Pass<"toy-switch-bar-foo", "::mlir::ModuleOp"> {
   }];
 }
 
+def ToyLowerToArith : Pass<"toy-lower-to-arith", "func::FuncOp"> {
+  let summary = "Lower toy dialect to arith dialect.";
+  let dependentDialects = ["::mlir::arith::ArithDialect"];
+  let description = [{
+    Lowers the toy dialect to the arith dialect.
+  }];
+}
+
 #endif // TOY_PASS

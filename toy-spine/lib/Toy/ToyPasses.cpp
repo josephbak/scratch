@@ -9,6 +9,8 @@
 #include "mlir/IR/PatternMatch.h"
 #include "mlir/Rewrite/FrozenRewritePatternSet.h"
 #include "mlir/Transforms/GreedyPatternRewriteDriver.h"
+#include "mlir/Dialect/Arith/IR/Arith.h"
+#include "Toy/ToyOps.h"
 
 #include "Toy/ToyPasses.h"
 
@@ -33,8 +35,7 @@ public:
 class ToySwitchBarFoo
     : public impl::ToySwitchBarFooBase<ToySwitchBarFoo> {
 public:
-  using impl::ToySwitchBarFooBase<
-      ToySwitchBarFoo>::ToySwitchBarFooBase;
+  using impl::ToySwitchBarFooBase<ToySwitchBarFoo>::ToySwitchBarFooBase;
   void runOnOperation() final {
     RewritePatternSet patterns(&getContext());
     patterns.add<ToySwitchBarFooRewriter>(&getContext());
@@ -44,4 +45,32 @@ public:
   }
 };
 } // namespace
+
+#define GEN_PASS_DEF_TOYLOWERTOARITH        // ties .cpp to the .td declaration
+#include "Toy/ToyPasses.h.inc"
+
+namespace {
+class ToyLowerToArithRewriter : public OpRewritePattern<SquareOp> {
+public:
+  using OpRewritePattern<SquareOp>::OpRewritePattern;   // inherit constructors
+  LogicalResult matchAndRewrite(SquareOp op, PatternRewriter &rewriter) const final {
+    Value input = op.getInput();
+    rewriter.replaceOpWithNewOp<arith::MulIOp>(op, input, input);
+    return success();
+  }
+};
+
+class ToyLowerToArith : public impl::ToyLowerToArithBase<ToyLowerToArith> {
+public:
+  using impl::ToyLowerToArithBase<ToyLowerToArith>::ToyLowerToArithBase;
+  void runOnOperation() final {
+    RewritePatternSet patterns(&getContext());
+    patterns.add<ToyLowerToArithRewriter>(&getContext());
+    FrozenRewritePatternSet patternSet(std::move(patterns));
+    if (failed(applyPatternsGreedily(getOperation(), patternSet)))
+      signalPassFailure();
+  }
+};
+} // namespace
+
 } // namespace mlir::toy
