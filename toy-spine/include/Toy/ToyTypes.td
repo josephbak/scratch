@@ -28,4 +28,14 @@ def Toy_CustomType : Toy_Type<"Custom", "custom"> {
     let assemblyFormat = "`<` $value `>`";
 }
 
+def Toy_IntType : Toy_Type<"Int", "int"> {
+    let summary = "Arbitrary-width custom integer type";
+    let description = [{
+      Represents an integer with a bitwidth.
+      Syntax: !toy.int<8>
+    }];
+    let parameters = (ins "unsigned":$width);
+    let assemblyFormat = "`<` $width `>`";
+}
+
 #endif // TOY_TYPES

@@ -37,4 +37,26 @@ def Toy_SquareOp : Toy_Op<"square", [Pure,
     
     let hasFolder = 1;
 }
+
+def Toy_IdentityOp : Toy_Op<"identity", [Pure,
+                                             SameOperandsAndResultType]> {
+    let summary = "returns its argument.";
+    let description = [{
+        The `toy.identity` operation returns its argument without modification.
+
+        Example:
+
+        ```mlir
+        %0 = toy.identity %x : !toy.int<8>
+        ```
+    }];
+
+    let arguments = (ins Toy_IntType:$input);
+    let results = (outs Toy_IntType:$res);
+
+    let assemblyFormat = [{
+        $input attr-dict `:` qualified(type($input))
+    }];
+}
+
 #endif // TOY_OPS

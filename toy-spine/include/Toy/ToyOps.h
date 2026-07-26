@@ -15,6 +15,8 @@
 #include "mlir/Interfaces/InferTypeOpInterface.h"
 #include "mlir/Interfaces/SideEffectInterfaces.h"
 
+#include "Toy/ToyTypes.h"
+
 #define GET_OP_CLASSES
 #include "Toy/ToyOps.h.inc"
 
