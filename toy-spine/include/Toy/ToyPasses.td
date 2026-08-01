@@ -35,4 +35,19 @@ def ToyLowerToArith : Pass<"toy-lower-to-arith", "func::FuncOp"> {
   }];
 }
 
+def ToyLowerToArithDialectConversion : Pass<"toy-lower-to-arith-dialectconversion", "func::FuncOp"> {
+  let summary = "Lower toy dialect to arith dialect.";
+  let dependentDialects = ["::mlir::arith::ArithDialect"];
+  let description = [{
+    Lowers the toy dialect to the arith dialect.
+  }];
+}
+
+def ToyTSquareLowerToArith : Pass<"toy-lower-tsquare", "func::FuncOp"> {
+  let summary = "Lower toy typed square operation to arith dialect.";
+  let dependentDialects = ["::mlir::arith::ArithDialect"];
+  let description = [{
+    Lowers toy.tsquare on !toy.int<W> to arith.muli on iW, via a TypeConverter.
+  }];
+}
 #endif // TOY_PASS
