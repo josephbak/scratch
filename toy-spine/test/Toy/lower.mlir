@@ -1,9 +1,9 @@
 // RUN: toy-opt %s --toy-lower-to-arith | FileCheck %s
-
-// CHECK-LABEL: @lower_square
-// CHECK: arith.muli %arg0, %arg0 : i32
-// CHECK-NOT: toy.square
-func.func @lower_square(%x: i32) -> i32 {
-  %r = toy.square %x : i32
-  return %r : i32
+// RUN: toy-opt %s --toy-lower-to-arith-dialectconversion | FileCheck %s
+// CHECK-LABEL: func.func @lower_square
+func.func @lower_square(%arg0: i32) -> i32 {
+  // CHECK: arith.muli
+  // CHECK-NOT: toy.square
+  %0 = toy.square %arg0 : i32
+  return %0 : i32
 }
