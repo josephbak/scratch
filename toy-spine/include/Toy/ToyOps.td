@@ -81,5 +81,11 @@ def Toy_IdentityOp : Toy_Op<"identity", [Pure,
     }];
 }
 
+def Toy_TensorIdOp : Toy_Op<"tensor_id", [Pure, SameOperandsAndResultType]> {
+    let arguments = (ins AnyRankedTensor:$input);
+    let results   = (outs AnyRankedTensor:$res);
+    let assemblyFormat = [{ $input attr-dict `:` type($input) }];
+}
+
 #endif // TOY_OPS
 
